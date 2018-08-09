@@ -1,0 +1,15 @@
+{
+  "name": "procon-support",
+  "main": "./lib/procon-support",
+  "version": "0.0.1",
+  "description": "A procon support",
+  "keywords": [
+  ],
+  "repository": "https://github.com/naoyat/procon-support",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

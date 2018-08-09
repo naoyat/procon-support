@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle procon-support",
+        "command": "procon-support:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "procon-support",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "procon-support:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

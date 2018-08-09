@@ -1,0 +1,8 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "procon-support:toggle",
+    "ctrl-cmd-9": "procon-support:cin",
+    "ctrl-cmd-0": "procon-support:cout",
+    "ctrl-cmd--": "procon-support:cerr"
+  }
+}
