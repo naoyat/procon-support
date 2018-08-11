@@ -1,26 +1,63 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle procon-support",
-        "command": "procon-support:toggle"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "procon-support",
-          "submenu": [
+    "context-menu": {
+        "atom-text-editor": [
             {
-              "label": "Toggle",
-              "command": "procon-support:toggle"
+                "label": "procon-support",
+                "submenu": [
+                    {
+                        "label": "toggle",
+                        "command": "procon-support:toggle"
+                    },
+                    {
+                        "label": "cin",
+                        "command": "procon-support:cin"
+                    },
+                    {
+                        "label": "cout",
+                        "command": "procon-support:cout"
+                    },
+                    {
+                        "label": "cerr",
+                        "command": "procon-support:cerr"
+                    },
+                    {
+                        "label": "fprintf",
+                        "command": "procon-support:fprintf"
+                    }
+                ]
             }
-          ]
+        ]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "procon-support",
+                    "submenu": [
+                        {
+                            "label": "Toggle",
+                            "command": "procon-support:toggle"
+                        },
+                        {
+                            "label": "cin",
+                            "command": "procon-support:cin"
+                        },
+                        {
+                            "label": "cout",
+                            "command": "procon-support:cout"
+                        },
+                        {
+                            "label": "cerr",
+                            "command": "procon-support:cerr"
+                        },
+                        {
+                            "label": "fprintf",
+                            "command": "procon-support:fprintf"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
